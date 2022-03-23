@@ -7,9 +7,7 @@ import jakarta.persistence.*;
 public class Customer {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "theme_generator")
-    @SequenceGenerator(name = "theme_generator", sequenceName = "DBOWNER.SEQ_NUM_THEME", allocationSize = 1)
-
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private Long id;
     private String firstName;
     private String lastName;
