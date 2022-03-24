@@ -1,0 +1,1 @@
+insert into employees values (33,'dddd','asasas','fgfgfgf');
